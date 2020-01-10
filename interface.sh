@@ -29,6 +29,7 @@ EOF
  echo -e "$red [$green+$red]  5:$off Search Passive DNS History ";
  echo -e "$red [$green+$red]  6:$off Find Domains through Certificates";
  echo -e "$red [$green+$red]  7:$off Find Subdomains and CNames ";
+ echo -e "$red [$green+$red]  8:$off Find Extract CNames ";
  echo "";
  echo -ne "$red [$green+$red] Select An Option:$off: " ;
  read Option
@@ -65,4 +66,9 @@ then
  if [ $Option -eq "7" ]
 then
    ./vasl.sh
+    fi
+
+ if [ $Option -eq "8" ]
+then
+   ./takeoverscanner.sh
     fi
