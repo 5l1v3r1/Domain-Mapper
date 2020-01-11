@@ -25,7 +25,7 @@
 
 
 # How to run?
-- chmod u+x * && chmod u+x ./
+- chmod -R 755 /dmap/
 - ./interface.sh
 
 # ScreenShot
