@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
 __author__ = 'Jake Miller (@LaconicWolf)'
-__date__ = '20180710'
+__date__ = '20191212'
 __Udpate__ = 'Haroon Awan (mrharoonawan@gmail.com)'
-__version__ = '0.02'
+__version__ = '0.03'
 __description__ = 'Accepts a domain name and queries multiple sources to return subdomains.'
 
 import socket
