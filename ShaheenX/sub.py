@@ -2,6 +2,7 @@
 
 __author__ = 'Jake Miller (@LaconicWolf)'
 __date__ = '20180710'
+__Udpate__ = 'Haroon Awan (mrharoonawan@gmail.com)'
 __version__ = '0.02'
 __description__ = 'Accepts a domain name and queries multiple sources to return subdomains.'
 
