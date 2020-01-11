@@ -1,6 +1,5 @@
 # Dmap
-- Domain Mapper can find domains, dns brute, subdomains
-- Domain Mapper can also find canonical records of subdomains, domains, dns brute for bug bounty
+- Domain Mapper can find, search, extract canonical records of subdomains, domains, dns, certificates for bug bounty
 
 # Cnames
 - Extract Cnames from results
