@@ -23,14 +23,13 @@ EOF
 
  echo "";
  echo -e "$red [$green+$red]  1:$off Subdomain Scanner using 10 Engines "; 
- echo -e "$red [$green+$red]  2:$off Subdomain Takeover Search ";
+ echo -e "$red [$green+$red]  2:$off Find and Exteact Cnames ";
  echo -e "$red [$green+$red]  3:$off Brute force to find Subdomains  "; 
  echo -e "$red [$green+$red]  4:$off Search DNS History  ";
  echo -e "$red [$green+$red]  5:$off Search Passive DNS History ";
  echo -e "$red [$green+$red]  6:$off Find Domains through Certificates";
  echo -e "$red [$green+$red]  7:$off Find Subdomains and CNames ";
- echo -e "$red [$green+$red]  8:$off Find Extract CNames ";
- echo "";
+ echo -e 
  echo -ne "$red [$green+$red] Select An Option:$off: " ;
  read Option
     if [ $Option -eq "1" ]
@@ -68,7 +67,4 @@ then
    ./vasl.sh
     fi
 
- if [ $Option -eq "8" ]
-then
-   ./takeoverscanner.sh
-    fi
+ 
