@@ -1,11 +1,8 @@
 # Dmap
 - Domain Mapper can find, search, extract canonical records of subdomains, domains, dns, certificates for bug bounty
 
-# Cnames
-- Extract Cnames from results
-
 # Engine Power
-- 15 Engines to extract subdomains, domains, dns and find Cname Records
+- 16 Engines to extract subdomains, domains, dns and find Cname Records
 - Netcraft
 - Google
 - Bing
@@ -22,7 +19,13 @@
 - Dns Brute Force using Nmap
 - Passive DNS
 - Certificates Domains, Sundomains and Cnames
+- Security Trails
 
+# Expired and Hijacking Notification
+- Dmap can pinpoint you any expired link
+- Dmap can pinpoint you any expired app in clouds
+- Dmap can pinpoint you any expired link that is vulnerable to hijacking
+- Extract Cnames from results
 
 # How to run?
 - chmod -R 755 /dmap/
